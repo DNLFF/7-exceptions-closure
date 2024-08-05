@@ -35,7 +35,7 @@ class Triangle{
     }
     getArea(){
         const p = this.getPerimeter() / 2;
-        return Math.sqrt(p*(p-this.a)*(p-this.b)*(p-this.c))
+        return (Math.sqrt(p*(p-this.a)*(p-this.b)*(p-this.c))).toFixed(3);
     }
 }
 function getTriangle(a,b,c){
